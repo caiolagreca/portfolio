@@ -94,7 +94,7 @@ function SkillSection() {
           </HardSkills>
         </HardSkillGrid>
         <SoftSkillGrid>
-          <SoftSkillTitle>Soft Skill</SoftSkillTitle>
+          <SoftSkillTitle>Soft Skills</SoftSkillTitle>
           <SoftSkills>
             <SoftSkill>
               <SoftSkillIcon>
