@@ -13,7 +13,6 @@ import {
   ProjectLinks,
   ProjectLink,
 } from "./ProjectsElements";
-import project1 from "../../images/project1.jpg";
 import amazonia from "../../images/amazonia.png";
 import controle_financeiro from "../../images/controle_financeiro.png";
 import drink_library from "../../images/drink_library.png";

@@ -28,19 +28,10 @@ function AboutSection() {
         <AboutWrapper>
           <Column1>
             <TextWrapper data-aos="fade-right">
-              Olá! Sou o Caio, tenho 26 anos e moro em Recife - PE, Brasil.
-              Desde sempre fui apaixonado por tecnologia, porém devido à
-              oportunidades da época, acabei me formando em Engenharia Civil,
-              trabalhando na área comercial. Como o desejo por tecnologia e
-              programação nunca foi embora, decidi mudar o rumo de minha
-              carreira e ir em busca do meu grande sonho.
+              Olá! Sou o Caio, moro em Recife - PE, Brasil. Graduado em Engenharia Civil com transição de carreira para Desenvolvedor e desde minha primeira linha de código, tive a certeza de que havia tomado a decisão correta. Atualmente sou autodidata em Desenvolvimento Web, atuando como Front-end Freelancer, no qual desenvolvo projetos em ReactJS e Javascript.
               <br />
               <br />
-              Desde minha primeira linha de código, fiquei realizado e tive a
-              certeza de que havia tomado a decisão certa. Atualmente sou
-              autodidata em Desenvolvimento Web, no qual desenvolvo Projetos em
-              front-end, trabalhando com React.JS e Typescript. Estou começando a
-              estudar a parte de back-end para futuramente tornar-me full-stack.
+              Curiosidades sobre mim: Sou um entusiasta pela tecnologia, apaixonado pelo meu cachorro, viciado em Triathlon e tenho como um dos maiores prazeres da vida a leitura. Ah, não posso esquecer que sou um amante do Café!
             </TextWrapper>
           </Column1>
           <Column2>

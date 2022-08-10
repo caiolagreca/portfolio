@@ -153,6 +153,11 @@ export const Language = styled.div`
     color: #01d85c;
     transition: all 0.5s ease-in-out;
   }
+
+
+  @media screen and (max-width: 960px) {
+    margin-bottom: 1.5rem;
+  }
 `;
 
 export const LanguageText = styled.h5`
