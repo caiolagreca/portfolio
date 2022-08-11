@@ -5,7 +5,7 @@ export const ProjectContainer = styled.section`
   background: #121212;
   height: 90vh;
   padding: 6rem 2rem 0 2rem;
-  width: 100vw;
+  width: 100%;
 
   @media screen and (max-width: 960px) {
     height: auto;
