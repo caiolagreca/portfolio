@@ -1,2 +1,34 @@
-![image](https://user-images.githubusercontent.com/98494814/183744558-dc9ebce6-6f06-430a-9594-8c0befed6905.png)
-Portfolio pessoal criado utilizando React. Nesse projeto encontra-se informações sobre mim, minhas habilidades (soft e hard skills), meus projetos e os meios de comunicação para entrar em contato comigo.
+<h1>AMAZONIA - AMAZON CLONE E-COMMERCE 🛒</h1>
+
+![image](https://github.com/caiolagreca/portfolio/blob/main/src/images/porfolio_gif.gif)
+
+<h2>Main Features ⚡</h2>
+<ul>
+  <li>About Me</li>
+  <li>Skills</li>
+  <li>Projects</li>
+  <li>Contact</li>
+</ul>
+
+<h2>Tecnologias utilizadas 💻</h2>
+<ul>
+  <li>ReactJS</li>
+  <li>Javascript</li>
+  <li>CSS - Styled Components</li>
+  <li>HTML</li>
+</ul>
+
+<h2>Serviços utilizados 🛠</h2>
+<ul>
+  <li>GitHub</li>
+  <li>Vercel para Deploy</li>
+</ul>
+
+<h2>Design Responsivo 📱</h2>
+
+![image](https://github.com/caiolagreca/portfolio/blob/main/src/images/porfolio_mobile_gif.gif)
+
+<h2>Autor do Projeto 😀</2>
+<ul>
+  <li>Caio Lagreca</li>
+</ul>
