@@ -1,4 +1,4 @@
-<h1>AMAZONIA - AMAZON CLONE E-COMMERCE 🛒</h1>
+<h1>PERSONAL PORTFOLIO 📄</h1>
 
 ![image](https://github.com/caiolagreca/portfolio/blob/main/src/images/porfolio_gif.gif)
 
