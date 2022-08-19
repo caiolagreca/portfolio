@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ProjectContainer = styled.section`
   color: #fff;
   background: #121212;
-  height: 90vh;
+  height: auto;
   padding: 6rem 2rem 0 2rem;
   width: 100%;
 
