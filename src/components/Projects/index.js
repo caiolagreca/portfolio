@@ -19,6 +19,7 @@ import drink_library from "../../images/drink_library.png";
 import bloco from "../../images/bloco.png";
 import serieflix from "../../images/serieflix.PNG";
 import book from "../../images/book.PNG";
+import lagfy from "../../images/lagfy_capa.PNG";
 
 function Projects() {
   const breakPoints = [
@@ -34,6 +35,46 @@ function Projects() {
       <ProjectH1>Principais projetos</ProjectH1>
       <Carrousel breakPoints={breakPoints}>
         <ProjectCard>
+          <ProjectImg
+            src={lagfy}
+            alt="página da plataforma de controle financeiro"
+          />
+          <ProjectInfos>
+            <ProjectTitle
+              href="https://github.com/caiolagreca/spotify-clone"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Lagfy - Spotify Clone
+            </ProjectTitle>
+            <ProjectSubtitles>
+              <ProjectSubtitle>ReactJS</ProjectSubtitle>
+              <ProjectSubtitle>Context API</ProjectSubtitle>
+              <ProjectSubtitle>Javascript</ProjectSubtitle>
+            </ProjectSubtitles>
+            <ProjectDescription>
+              Clone do Spotify, no qual consome a API da plataforma original, sendo possível uma maior interatividade com o usuário. OBS: Responsividade apenas para Tablet devido a plataforma haver um App específico para Smartphones.
+            </ProjectDescription>
+            <ProjectLinks>
+              <ProjectLink
+                href="https://github.com/caiolagreca/spotify-clone"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </ProjectLink>
+              <ProjectLink
+                href="https://github.com/caiolagreca/spotify-clone"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Site
+              </ProjectLink>
+            </ProjectLinks>
+          </ProjectInfos>
+        </ProjectCard>
+
+        <ProjectCard>
           <ProjectImg src={amazonia} alt="página principal do site Amazonia" />
           <ProjectInfos>
             <ProjectTitle
@@ -44,7 +85,7 @@ function Projects() {
               Amazonia - Amazon Clone
             </ProjectTitle>
             <ProjectSubtitles>
-              <ProjectSubtitle>React</ProjectSubtitle>
+              <ProjectSubtitle>ReactJS</ProjectSubtitle>
               <ProjectSubtitle>Javascript</ProjectSubtitle>
               <ProjectSubtitle>Firebase</ProjectSubtitle>
             </ProjectSubtitles>
@@ -87,7 +128,7 @@ function Projects() {
               Plataforma de Controle Financeiro
             </ProjectTitle>
             <ProjectSubtitles>
-              <ProjectSubtitle>React</ProjectSubtitle>
+              <ProjectSubtitle>ReactJS</ProjectSubtitle>
               <ProjectSubtitle>Javascript</ProjectSubtitle>
             </ProjectSubtitles>
             <ProjectDescription>
@@ -128,7 +169,7 @@ function Projects() {
               Drink Search
             </ProjectTitle>
             <ProjectSubtitles>
-              <ProjectSubtitle>React</ProjectSubtitle>
+              <ProjectSubtitle>ReactJS</ProjectSubtitle>
               <ProjectSubtitle>Javascript</ProjectSubtitle>
             </ProjectSubtitles>
             <ProjectDescription>
@@ -166,7 +207,7 @@ function Projects() {
               Bloco de Notas
             </ProjectTitle>
             <ProjectSubtitles>
-              <ProjectSubtitle>React</ProjectSubtitle>
+              <ProjectSubtitle>ReactJS</ProjectSubtitle>
               <ProjectSubtitle>Javascript</ProjectSubtitle>
             </ProjectSubtitles>
             <ProjectDescription>
