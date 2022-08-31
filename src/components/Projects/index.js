@@ -20,6 +20,7 @@ import bloco from "../../images/bloco.png";
 import serieflix from "../../images/serieflix.PNG";
 import book from "../../images/book.PNG";
 import lagfy from "../../images/lagfy_capa.PNG";
+import covid from "../../images/covid.PNG";
 
 function Projects() {
   const breakPoints = [
@@ -34,6 +35,43 @@ function Projects() {
     <ProjectContainer id="projetos">
       <ProjectH1>Principais projetos</ProjectH1>
       <Carrousel breakPoints={breakPoints}>
+        <ProjectCard>
+          <ProjectImg src={covid} alt="plataforma covid-19 INFO" />
+          <ProjectInfos>
+            <ProjectTitle
+              href="https://github.com/caiolagreca/covid_control"
+              target="_blank"
+              rel="noreferrer"
+            >
+              COVID-19 INFO
+            </ProjectTitle>
+            <ProjectSubtitles>
+              <ProjectSubtitle>ReactJS</ProjectSubtitle>
+              <ProjectSubtitle>Javascript</ProjectSubtitle>
+            </ProjectSubtitles>
+            <ProjectDescription>
+              Página consumindo API do Covid-19 trazendo informações atualizadas
+              sobre casos, recuperados e mortes em todos os países do mundo.
+            </ProjectDescription>
+            <ProjectLinks>
+              <ProjectLink
+                href="https://github.com/caiolagreca/covid_control"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </ProjectLink>
+              <ProjectLink
+                href="https://covid-control-nu.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Site
+              </ProjectLink>
+            </ProjectLinks>
+          </ProjectInfos>
+        </ProjectCard>
+
         <ProjectCard>
           <ProjectImg
             src={lagfy}
@@ -53,7 +91,10 @@ function Projects() {
               <ProjectSubtitle>Javascript</ProjectSubtitle>
             </ProjectSubtitles>
             <ProjectDescription>
-              Clone do Spotify, no qual consome a API da plataforma original, sendo possível uma maior interatividade com o usuário. OBS: Responsividade apenas para Tablet devido a plataforma haver um App específico para Smartphones.
+              Clone do Spotify, no qual consome a API da plataforma original,
+              sendo possível uma maior interatividade com o usuário. OBS:
+              Responsividade apenas para Tablet devido a plataforma haver um App
+              específico para Smartphones.
             </ProjectDescription>
             <ProjectLinks>
               <ProjectLink
