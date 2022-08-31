@@ -28,10 +28,7 @@ function AboutSection() {
         <AboutWrapper>
           <Column1>
             <TextWrapper data-aos="fade-right">
-              Olá! Sou o Caio, moro em Recife - PE, Brasil. Desenvolvedor Web, também graduado em Engenharia Civil onde resolvi fazer a transição de carreira, e desde minha primeira linha de código, tive a certeza de que havia tomado a decisão correta. Atualmente sou autodidata em Front-End, atuando como Freelancer, no qual desenvolvo projetos em ReactJS e Javascript.
-              <br />
-              <br />
-              Curiosidades sobre mim: Sou um entusiasta pela tecnologia, apaixonado pelo meu cachorro, viciado em Triathlon e tenho como um dos maiores prazeres da vida a leitura. Ah, não posso esquecer que sou um amante do Café!
+            Olá! Sou Desenvolvedor Web Front-end, no qual atuo como Freelancer desenvolvendo projetos em ReactJS e Javascript, e estou em busca de minha primeira oportunidade. Também graduado em Engenharia Civil, e com grande experiência no mercado financeiro trabalhando em uma fintech. Anteriormente fui proprietário do site Criativa TecHouse, no qual importávamos produtos de tecnologia, e eu era responsável por toda a infra, manutenção do site, e comunicação com o cliente. Através dessas experiências desenvolvi skills de extrema relevância para atuar no mercado, com uma boa comunicação, facilidade para trabalhar em equipe, inteligência emocional, organização, planejamento e gestão de tempo. Além disso, falo inglês fluentemente, no qual estudo e pratico há mais de 15 anos.
             </TextWrapper>
           </Column1>
           <Column2>
