@@ -21,6 +21,7 @@ import serieflix from "../../images/serieflix.PNG";
 import book from "../../images/book.PNG";
 import lagfy from "../../images/lagfy_capa.PNG";
 import covid from "../../images/covid.PNG";
+import adventure from "../../images/adventure.PNG";
 
 function Projects() {
   const breakPoints = [
@@ -35,6 +36,48 @@ function Projects() {
     <ProjectContainer id="projetos">
       <ProjectH1>Principais projetos</ProjectH1>
       <Carrousel breakPoints={breakPoints}>
+        <ProjectCard>
+          <ProjectImg
+            src={adventure}
+            alt="página da adventure trip- fullstack project"
+          />
+          <ProjectInfos>
+            <ProjectTitle
+              href="https://github.com/caiolagreca/dreams-trip"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Adventure Trip - Fullstack Project
+            </ProjectTitle>
+            <ProjectSubtitles>
+              <ProjectSubtitle>Node.JS</ProjectSubtitle>
+              <ProjectSubtitle>MongoDB</ProjectSubtitle>
+              <ProjectSubtitle>Express</ProjectSubtitle>
+              <ProjectSubtitle>CSS</ProjectSubtitle>
+              <ProjectSubtitle>HTML</ProjectSubtitle>
+            </ProjectSubtitles>
+            <ProjectDescription>
+              Desenvolvimento de API para aplicação em um site de viagens. Features como CRUD de API, senhas criptografadas, dados armazenados no MongoDB e até pagamento com Stripe.
+            </ProjectDescription>
+            <ProjectLinks>
+              <ProjectLink
+                href="https://github.com/caiolagreca/dreams-trip"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </ProjectLink>
+              <ProjectLink
+                href="https://adventure-dreams-trip.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Site
+              </ProjectLink>
+            </ProjectLinks>
+          </ProjectInfos>
+        </ProjectCard>
+
         <ProjectCard>
           <ProjectImg src={covid} alt="plataforma covid-19 INFO" />
           <ProjectInfos>

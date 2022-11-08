@@ -30,10 +30,12 @@ import {
   SiReact,
   SiBootstrap,
   SiSass,
+  SiMongodb,
+  SiRedux
 } from "react-icons/si";
 import { GiBrain, GiNetworkBars, GiTeamIdea, GiTalk } from "react-icons/gi";
 import { AiOutlineSchedule } from "react-icons/ai";
-import { FaGitAlt } from "react-icons/fa";
+import { FaGitAlt, FaNodeJs } from "react-icons/fa";
 
 function SkillSection() {
   return (
@@ -45,15 +47,15 @@ function SkillSection() {
           <HardSkills>
             <HardSkill>
               <HardSkillIcon>
-                <SiHtml5 />
+                <SiReact />
               </HardSkillIcon>
-              <HardSkillText>HTML5</HardSkillText>
+              <HardSkillText>React.JS</HardSkillText>
             </HardSkill>
             <HardSkill>
               <HardSkillIcon>
-                <SiCss3 />
+                <FaNodeJs />
               </HardSkillIcon>
-              <HardSkillText>CSS3</HardSkillText>
+              <HardSkillText>Node.JS</HardSkillText>
             </HardSkill>
             <HardSkill>
               <HardSkillIcon>
@@ -69,9 +71,9 @@ function SkillSection() {
             </HardSkill>
             <HardSkill>
               <HardSkillIcon>
-                <SiReact />
+                <SiMongodb />
               </HardSkillIcon>
-              <HardSkillText>ReactJS</HardSkillText>
+              <HardSkillText>MongoDB</HardSkillText>
             </HardSkill>
             <HardSkill>
               <HardSkillIcon>
@@ -81,9 +83,9 @@ function SkillSection() {
             </HardSkill>
             <HardSkill>
               <HardSkillIcon>
-                <SiSass />
+                <SiRedux />
               </HardSkillIcon>
-              <HardSkillText>Sass</HardSkillText>
+              <HardSkillText>Redux</HardSkillText>
             </HardSkill>
             <HardSkill>
               <HardSkillIcon>
