@@ -15,7 +15,7 @@ function FooterSection() {
     <FooterContainer>
       <FooterWrapper>
         <FooterDescription>
-          Caio Lagreca {new Date().getFullYear()}. Todos os direitos reservados.
+          Caio Lagreca {new Date().getFullYear()}. All rights reserved.
         </FooterDescription>
         <FooterLinks>
           <FooterLink

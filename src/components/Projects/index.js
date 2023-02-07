@@ -34,7 +34,7 @@ function Projects() {
 
   return (
     <ProjectContainer id="projetos">
-      <ProjectH1>Principais projetos</ProjectH1>
+      <ProjectH1>Main Projects</ProjectH1>
       <Carrousel breakPoints={breakPoints}>
         <ProjectCard>
           <ProjectImg
@@ -57,7 +57,9 @@ function Projects() {
               <ProjectSubtitle>HTML</ProjectSubtitle>
             </ProjectSubtitles>
             <ProjectDescription>
-              Desenvolvimento de API para aplicação em um site de viagens. Features como CRUD de API, senhas criptografadas, dados armazenados no MongoDB e até pagamento com Stripe.
+              API development for application on a travel website. Features like
+              API CRUD, encrypted passwords, data stored in MongoDB and even
+              paid with Stripe.
             </ProjectDescription>
             <ProjectLinks>
               <ProjectLink
@@ -93,8 +95,8 @@ function Projects() {
               <ProjectSubtitle>Javascript</ProjectSubtitle>
             </ProjectSubtitles>
             <ProjectDescription>
-              Página consumindo API do Covid-19 trazendo informações atualizadas
-              sobre casos, recuperados e mortes em todos os países do mundo.
+              Page consuming Covid-19 API bringing updated information about
+              cases, recovered and deaths in every country in the world.
             </ProjectDescription>
             <ProjectLinks>
               <ProjectLink
@@ -134,10 +136,10 @@ function Projects() {
               <ProjectSubtitle>Javascript</ProjectSubtitle>
             </ProjectSubtitles>
             <ProjectDescription>
-              Clone do Spotify, no qual consome a API da plataforma original,
-              sendo possível uma maior interatividade com o usuário. OBS:
-              Responsividade apenas para Tablet devido a plataforma haver um App
-              específico para Smartphones.
+              Spotify clone, which consumes the API of the original platform,
+              being possible a greater interactivity with the user. NOTE:
+              Tablet-only responsiveness due to the platform having an App
+              Specific for Smartphones.
             </ProjectDescription>
             <ProjectLinks>
               <ProjectLink
@@ -174,10 +176,10 @@ function Projects() {
               <ProjectSubtitle>Firebase</ProjectSubtitle>
             </ProjectSubtitles>
             <ProjectDescription>
-              E-commerce simulando o site da Amazon, no qual o usuário faz o
-              login, gerando um banco de dados no Firebase. No site é possível
-              adicionar itens ao carrinho, excluí-los e ir até o pagamento
-              finalizando a compra.
+              E-commerce simulating the Amazon website, in which the user does
+              the login, generating a database in Firebase. On the website it is
+              possible add items to cart, delete them and proceed to checkout
+              finalizing the purchase.
             </ProjectDescription>
             <ProjectLinks>
               <ProjectLink
@@ -209,16 +211,15 @@ function Projects() {
               target="_blank"
               rel="noreferrer"
             >
-              Plataforma de Controle Financeiro
+              Financial Control
             </ProjectTitle>
             <ProjectSubtitles>
               <ProjectSubtitle>ReactJS</ProjectSubtitle>
               <ProjectSubtitle>Javascript</ProjectSubtitle>
             </ProjectSubtitles>
             <ProjectDescription>
-              Plataforma de serviço para controle financeiro, no qual o usuário
-              insere suas entradas e saídas. Informações armazenadas no
-              LocalStorage.
+              Service platform for financial control, in which the user enter
+              your inputs and outputs. Information stored in LocalStorage.
             </ProjectDescription>
             <ProjectLinks>
               <ProjectLink
@@ -257,9 +258,10 @@ function Projects() {
               <ProjectSubtitle>Javascript</ProjectSubtitle>
             </ProjectSubtitles>
             <ProjectDescription>
-              Página de Drinks no qual o usuário busca a bebida desejada através
-              de uma requisição de API. Ao selecionar a bebida, é possível obter
-              informações como ingredientes e modo de preparo.
+              Drinks page in which the user searches for the desired drink
+              through of an API request. When selecting the drink, it is
+              possible to obtain information such as ingredients and method of
+              preparation.
             </ProjectDescription>
             <ProjectLinks>
               <ProjectLink
@@ -288,16 +290,16 @@ function Projects() {
               target="_blank"
               rel="noreferrer"
             >
-              Bloco de Notas
+              Notepad
             </ProjectTitle>
             <ProjectSubtitles>
               <ProjectSubtitle>ReactJS</ProjectSubtitle>
               <ProjectSubtitle>Javascript</ProjectSubtitle>
             </ProjectSubtitles>
             <ProjectDescription>
-              App no qual o usuário pode inserir, editar e deletar as notas. As
-              informações ficam armazenadas no LocalStorage mesmo após a página
-              ser fechada.
+              App in which the user can insert, edit and delete notes. To the
+              information is stored in LocalStorage even after the page be
+              closed.
             </ProjectDescription>
             <ProjectLinks>
               <ProjectLink
@@ -334,9 +336,8 @@ function Projects() {
               <ProjectSubtitle>Javascript</ProjectSubtitle>
             </ProjectSubtitles>
             <ProjectDescription>
-              Landing Page de uma livraria no qual o usuário pode adicionar os
-              livros no carrinho, remover e escolher a quantidade, finalizando a
-              compra.
+              Landing Page of a bookstore in which the user can add the books in
+              the cart, remove and choose the quantity, finalizing the purchase.
             </ProjectDescription>
             <ProjectLinks>
               <ProjectLink
@@ -376,8 +377,7 @@ function Projects() {
               <ProjectSubtitle>Javascript</ProjectSubtitle>
             </ProjectSubtitles>
             <ProjectDescription>
-              Landing Page de uma página de seriados (simulando Netflix) com
-              carrossel.
+              Landing Page of a series page (simulating Netflix) with carousel.
             </ProjectDescription>
             <ProjectLinks>
               <ProjectLink

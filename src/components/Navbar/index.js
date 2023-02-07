@@ -64,7 +64,7 @@ function Navbar({ toggle }) {
                 exact="true"
                 
               >
-                Sobre
+                About
               </NavLinks>
             </NavItem>
             <NavItem>
@@ -75,7 +75,7 @@ function Navbar({ toggle }) {
                 spy={true}
                 exact="true"
               >
-                Habilidades
+                Skills
               </NavLinks>
             </NavItem>
             <NavItem>
@@ -86,7 +86,7 @@ function Navbar({ toggle }) {
                 spy={true}
                 exact="true"
               >
-                Projetos
+                Projects
               </NavLinks>
             </NavItem>
           </NavMenu>
@@ -98,7 +98,7 @@ function Navbar({ toggle }) {
               spy={true}
               exact="true"
             >
-              Contato
+              Contact
             </NavBtnLink>
           </NavBtn>
         </NavbarContainer>

@@ -23,21 +23,21 @@ function AboutSection() {
   return (
     <>
       <AboutContainer id="sobre">
-        <AboutTitle data-aos="fade-down">Sobre Mim</AboutTitle>
+        <AboutTitle data-aos="fade-down">About Me</AboutTitle>
         <AboutWrapper>
           <Column1>
             <TextWrapper data-aos="fade-right">
-              Olá! Sou Desenvolvedor Web Fullstack, no qual atuo como Freelancer
-              desenvolvendo projetos em React.JS e Node.JS. Também graduado em
-              Engenharia Civil, e com grande experiência no mercado financeiro
-              trabalhando em uma fintech. Anteriormente fui proprietário de um
-              site de importação de produtos de tecnologia, sendo responsável
-              por toda a infra, manutenção do site, e comunicação com o cliente.
-              Através dessas experiências desenvolvi skills de extrema
-              relevância para atuar no mercado, com uma boa comunicação,
-              facilidade para trabalhar em equipe, inteligência emocional,
-              organização, planejamento e gestão de tempo. Além disso, falo
-              inglês fluentemente, no qual estudo e pratico há mais de 15 anos.
+              I am a Fullstack Web Developer, working with technologies as React,
+              Node and MongoDB. I also have usually contact with Git, Postman,
+              AWS and Scrum as Agile methodology. I am also graduated in Civil
+              Engineering, and with a great experience in the financial market
+              working in a financial technology company. Previously I owned a
+              website of technology products, being responsible for all the
+              infrastructure, website maintenance, and customer communication.
+              Through these experiences I developed skills of extreme relevance
+              to work in the area, with good communication, team work, emotional
+              intelligence and organization. In addition, I speak English
+              fluently, which I have studied for over 17 years.
             </TextWrapper>
           </Column1>
           <Column2>

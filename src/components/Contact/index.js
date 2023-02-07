@@ -30,13 +30,13 @@ function ContactSection() {
     <>
       <Container id="contato">
         <form ref={form} onSubmit={sendEmail}>
-          <h2>Fale comigo!</h2>
+          <h2>Talk to me!</h2>
           <div className="app__form__group">
             <input
               className="app__form__control"
               type="text"
               name="user_name"
-              placeholder="NOME"
+              placeholder="NAME"
             />
           </div>
           <div className="app__form__group">
@@ -51,11 +51,11 @@ function ContactSection() {
             <textarea
               className="app__form__control message"
               name="message"
-              placeholder="MENSAGEM"
+              placeholder="MESSAGE"
             />
           </div>
           <div className="app__form__button">
-            <input id="botao" type="submit" value="ENVIAR" />
+            <input id="botao" type="submit" value="SEND" />
           </div>
         </form>
       </Container>

@@ -31,7 +31,7 @@ import {
   SiBootstrap,
   SiSass,
   SiMongodb,
-  SiRedux
+  SiRedux,
 } from "react-icons/si";
 import { GiBrain, GiNetworkBars, GiTeamIdea, GiTalk } from "react-icons/gi";
 import { AiOutlineSchedule } from "react-icons/ai";
@@ -40,7 +40,7 @@ import { FaGitAlt, FaNodeJs } from "react-icons/fa";
 function SkillSection() {
   return (
     <SkillContainer id="habilidades">
-      <SkillTitle>Habilidades</SkillTitle>
+      <SkillTitle>Skills</SkillTitle>
       <SkillsGrid>
         <HardSkillGrid>
           <HardSkillTitle>Hard Skills</HardSkillTitle>
@@ -102,33 +102,33 @@ function SkillSection() {
               <SoftSkillIcon>
                 <GiBrain />
               </SoftSkillIcon>
-              <SoftSkillText>Inteligência emocional</SoftSkillText>
+              <SoftSkillText>Emotional Intelligence</SoftSkillText>
             </SoftSkill>
             <SoftSkill>
               <SoftSkillIcon>
                 <GiNetworkBars />
               </SoftSkillIcon>
-              <SoftSkillText>Capacidade de aprendizado</SoftSkillText>
+              <SoftSkillText>Learning Ability</SoftSkillText>
             </SoftSkill>
             <SoftSkill>
               <SoftSkillIcon>
                 <GiTeamIdea />
               </SoftSkillIcon>
-              <SoftSkillText>Trabalho em equipe</SoftSkillText>
+              <SoftSkillText>Team Work</SoftSkillText>
             </SoftSkill>
             <SoftSkill>
               <SoftSkillIcon>
                 <AiOutlineSchedule />
               </SoftSkillIcon>
-              <SoftSkillText>Organização e planejamento</SoftSkillText>
+              <SoftSkillText>Organization and Planning</SoftSkillText>
             </SoftSkill>
           </SoftSkills>
         </SoftSkillGrid>
         <LanguageGrid>
-          <LanguageTitle>Idioma</LanguageTitle>
+          <LanguageTitle>Language</LanguageTitle>
           <Language>
             <GiTalk />
-            <LanguageText>Inglês Fluente</LanguageText>
+            <LanguageText>Fluent English</LanguageText>
           </Language>
         </LanguageGrid>
       </SkillsGrid>

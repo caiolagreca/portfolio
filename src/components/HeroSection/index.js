@@ -29,9 +29,9 @@ export const HeroSection = () => {
       <HeroContent>
         <HeroTitle>
           <HeroH1>
-            <HeroStrong>Olá,</HeroStrong> Eu sou <br /> Caio Lagreca
+            <HeroStrong>Hello,</HeroStrong> I am <br /> Caio Lagreca
           </HeroH1>
-          <HeroH2>Web Developer</HeroH2>
+          <HeroH2>Full Stack Developer</HeroH2>
           <HeroInfos>
             <HeroLinks>
               <HeroLink

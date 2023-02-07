@@ -22,18 +22,18 @@ export const Sidebar = ({ isOpen, toggle }) => {
             Home
           </SidebarLink>
           <SidebarLink to="sobre" onClick={toggle}>
-            Sobre
+            About
           </SidebarLink>
           <SidebarLink to="habilidades" onClick={toggle}>
-            Habilidades
+            Skills
           </SidebarLink>
           <SidebarLink to="projetos" onClick={toggle}>
-            Projetos
+            Projects
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
           <SidebarRoute to="contato" onClick={toggle}>
-            Contato
+            Contact
           </SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
