@@ -50,7 +50,7 @@ export const Column1 = styled.div`
 
 export const TextWrapper = styled.p`
   text-align: justify;
-  font-size: 1.1rem;
+  font-size: .95rem;
   margin: 0 2rem;
 
   @media screen and (max-width: 1200px) {

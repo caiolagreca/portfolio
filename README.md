@@ -10,7 +10,7 @@
   <li>Contact</li>
 </ul>
 
-<h2>Tecnologias utilizadas 💻</h2>
+<h2>Technologies 💻</h2>
 <ul>
   <li>ReactJS</li>
   <li>Javascript</li>
@@ -18,17 +18,17 @@
   <li>HTML</li>
 </ul>
 
-<h2>Serviços utilizados 🛠</h2>
+<h2>Services 🛠</h2>
 <ul>
   <li>GitHub</li>
   <li>Vercel para Deploy</li>
 </ul>
 
-<h2>Design Responsivo 📱</h2>
+<h2>Responsive Design 📱</h2>
 
 ![image](https://github.com/caiolagreca/portfolio/blob/main/src/images/porfolio_mobile_gif.gif)
 
-<h2>Autor do Projeto 😀</2>
+<h2>Author 😀</2>
 <ul>
   <li>Caio Lagreca</li>
 </ul>

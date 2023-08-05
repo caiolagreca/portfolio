@@ -23,19 +23,18 @@ import {
 } from "./SkillElements";
 
 import {
-  SiHtml5,
-  SiCss3,
-  SiJavascript,
+  SiPhp,
   SiTypescript,
   SiReact,
-  SiBootstrap,
-  SiSass,
+  SiAngular,
+  SiMysql,
   SiMongodb,
   SiRedux,
+  SiAmazonaws
 } from "react-icons/si";
 import { GiBrain, GiNetworkBars, GiTeamIdea, GiTalk } from "react-icons/gi";
 import { AiOutlineSchedule } from "react-icons/ai";
-import { FaGitAlt, FaNodeJs } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
 
 function SkillSection() {
   return (
@@ -59,9 +58,9 @@ function SkillSection() {
             </HardSkill>
             <HardSkill>
               <HardSkillIcon>
-                <SiJavascript />
+                <SiPhp />
               </HardSkillIcon>
-              <HardSkillText>Javascript</HardSkillText>
+              <HardSkillText>PHP</HardSkillText>
             </HardSkill>
             <HardSkill>
               <HardSkillIcon>
@@ -77,21 +76,21 @@ function SkillSection() {
             </HardSkill>
             <HardSkill>
               <HardSkillIcon>
-                <FaGitAlt />
+                <SiMysql />
               </HardSkillIcon>
-              <HardSkillText>Git</HardSkillText>
+              <HardSkillText>MySQL</HardSkillText>
             </HardSkill>
             <HardSkill>
               <HardSkillIcon>
-                <SiRedux />
+                <SiAngular />
               </HardSkillIcon>
-              <HardSkillText>Redux</HardSkillText>
+              <HardSkillText>Angular</HardSkillText>
             </HardSkill>
             <HardSkill>
               <HardSkillIcon>
-                <SiBootstrap />
+                <SiAmazonaws />
               </HardSkillIcon>
-              <HardSkillText>Bootstrap</HardSkillText>
+              <HardSkillText>AWS</HardSkillText>
             </HardSkill>
           </HardSkills>
         </HardSkillGrid>

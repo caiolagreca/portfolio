@@ -69,13 +69,6 @@ function Projects() {
               >
                 GitHub
               </ProjectLink>
-              <ProjectLink
-                href="https://adventure-dreams-trip.herokuapp.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Site
-              </ProjectLink>
             </ProjectLinks>
           </ProjectInfos>
         </ProjectCard>
@@ -148,13 +141,6 @@ function Projects() {
                 rel="noreferrer"
               >
                 GitHub
-              </ProjectLink>
-              <ProjectLink
-                href="https://github.com/caiolagreca/spotify-clone"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Site
               </ProjectLink>
             </ProjectLinks>
           </ProjectInfos>

@@ -27,17 +27,24 @@ function AboutSection() {
         <AboutWrapper>
           <Column1>
             <TextWrapper data-aos="fade-right">
-              I am a Fullstack Web Developer, working with technologies as React,
-              Node and MongoDB. I also have usually contact with Git, Postman,
-              AWS and Scrum as Agile methodology. I am also graduated in Civil
-              Engineering, and with a great experience in the financial market
-              working in a financial technology company. Previously I owned a
-              website of technology products, being responsible for all the
-              infrastructure, website maintenance, and customer communication.
-              Through these experiences I developed skills of extreme relevance
-              to work in the area, with good communication, team work, emotional
-              intelligence and organization. In addition, I speak English
-              fluently, which I have studied for over 17 years.
+              I'm a Fullstack Web Developer, working at Jade Finance, developing
+              webpages through technologies such as PHP and PostgreSQL. Before
+              that I had worked at Tecomat, which I was involved in developing
+              and maintaining the company’s management system, working with
+              React and Node with Typescript, MongoDB and AWS. I also have
+              usually contact with, Git, Bitbucket, Postman and Trello.
+              Moreover, in parallel, I've been developing and collaborating on
+              open-source projects in Angular and deepening my knowledge into
+              Design Systems, Microservices and E2E test.<br/>
+              Furthermore, I’m
+              graduated in Engineering, and with a great experience in the
+              financial market working in a financial technology company.
+              Previously I owned a website of technology products, being
+              responsible for all the infrastructure, website maintenance, and
+              customer communication. Through these experiences I have developed
+              skills of extreme relevance to work in the area, such as good
+              communication, team work, emotional intelligence, organization,
+              planning and time management.
             </TextWrapper>
           </Column1>
           <Column2>
