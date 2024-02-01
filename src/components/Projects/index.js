@@ -40,52 +40,14 @@ function Projects() {
         <ProjectCard>
           <ProjectImg
             src={book_share}
-            alt="página da adventure trip- fullstack project"
+            alt="social media book resume page - fullstack project"
           />
           <ProjectInfos>
             <ProjectTitle
-              href="https://github.com/caiolagreca/dreams-trip"
-              target="_blank"
+              href="https://github.com/caiolagreca/book_social_app"
               rel="noreferrer"
             >
               Book Share - Fullstack Project
-            </ProjectTitle>
-            <ProjectSubtitles>
-              <ProjectSubtitle>Node.JS</ProjectSubtitle>
-              <ProjectSubtitle>MongoDB</ProjectSubtitle>
-              <ProjectSubtitle>Express</ProjectSubtitle>
-              <ProjectSubtitle>CSS</ProjectSubtitle>
-              <ProjectSubtitle>HTML</ProjectSubtitle>
-            </ProjectSubtitles>
-            <ProjectDescription>
-              API development for application on a travel website. Features like
-              API CRUD, encrypted passwords, data stored in MongoDB and even
-              paid with Stripe.
-            </ProjectDescription>
-            <ProjectLinks>
-              <ProjectLink
-                href="https://github.com/caiolagreca/dreams-trip"
-                target="_blank"
-                rel="noreferrer"
-              >
-                GitHub
-              </ProjectLink>
-            </ProjectLinks>
-          </ProjectInfos>
-        </ProjectCard>
-
-        <ProjectCard>
-          <ProjectImg
-            src={adventure}
-            alt="página da adventure trip- fullstack project"
-          />
-          <ProjectInfos>
-            <ProjectTitle
-              href="https://github.com/caiolagreca/dreams-trip"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Adventure Trip - Fullstack Project
             </ProjectTitle>
             <ProjectSubtitles>
               <ProjectSubtitle>React.JS</ProjectSubtitle>
@@ -111,6 +73,43 @@ function Projects() {
                 rel="noreferrer"
               >
                 Site
+              </ProjectLink>
+            </ProjectLinks>
+          </ProjectInfos>
+        </ProjectCard>
+
+        <ProjectCard>
+          <ProjectImg
+            src={adventure}
+            alt="página da adventure trip- fullstack project"
+          />
+          <ProjectInfos>
+            <ProjectTitle
+              href="https://github.com/caiolagreca/dreams-trip"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Adventure Trip - Fullstack Project
+            </ProjectTitle>
+            <ProjectSubtitles>
+              <ProjectSubtitle>Node.JS</ProjectSubtitle>
+              <ProjectSubtitle>MongoDB</ProjectSubtitle>
+              <ProjectSubtitle>Express</ProjectSubtitle>
+              <ProjectSubtitle>CSS</ProjectSubtitle>
+              <ProjectSubtitle>HTML</ProjectSubtitle>
+            </ProjectSubtitles>
+            <ProjectDescription>
+              API development for application on a travel website. Features like
+              API CRUD, encrypted passwords, data stored in MongoDB and even
+              paid with Stripe.
+            </ProjectDescription>
+            <ProjectLinks>
+              <ProjectLink
+                href="https://github.com/caiolagreca/dreams-trip"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
               </ProjectLink>
             </ProjectLinks>
           </ProjectInfos>
