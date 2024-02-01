@@ -22,6 +22,7 @@ import book from "../../images/book.PNG";
 import lagfy from "../../images/lagfy_capa.PNG";
 import covid from "../../images/covid.PNG";
 import adventure from "../../images/adventure.PNG";
+import book_share from "../../images/book_share.png";
 
 function Projects() {
   const breakPoints = [
@@ -38,7 +39,7 @@ function Projects() {
       <Carrousel breakPoints={breakPoints}>
         <ProjectCard>
           <ProjectImg
-            src={adventure}
+            src={book_share}
             alt="página da adventure trip- fullstack project"
           />
           <ProjectInfos>
@@ -47,7 +48,7 @@ function Projects() {
               target="_blank"
               rel="noreferrer"
             >
-              Adventure Trip - Fullstack Project
+              Book Share - Fullstack Project
             </ProjectTitle>
             <ProjectSubtitles>
               <ProjectSubtitle>Node.JS</ProjectSubtitle>
@@ -68,6 +69,48 @@ function Projects() {
                 rel="noreferrer"
               >
                 GitHub
+              </ProjectLink>
+            </ProjectLinks>
+          </ProjectInfos>
+        </ProjectCard>
+
+        <ProjectCard>
+          <ProjectImg
+            src={adventure}
+            alt="página da adventure trip- fullstack project"
+          />
+          <ProjectInfos>
+            <ProjectTitle
+              href="https://github.com/caiolagreca/dreams-trip"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Adventure Trip - Fullstack Project
+            </ProjectTitle>
+            <ProjectSubtitles>
+              <ProjectSubtitle>React.JS</ProjectSubtitle>
+              <ProjectSubtitle>Node.JS</ProjectSubtitle>
+              <ProjectSubtitle>MongoDB</ProjectSubtitle>
+              <ProjectSubtitle>Express</ProjectSubtitle>
+            </ProjectSubtitles>
+            <ProjectDescription>
+              Social media to share your book resumes. You can post, filter,
+              like and dislike, follow others users and much more!
+            </ProjectDescription>
+            <ProjectLinks>
+              <ProjectLink
+                href="https://github.com/caiolagreca/book_social_app"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </ProjectLink>
+              <ProjectLink
+                href="https://book-share-rho.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Site
               </ProjectLink>
             </ProjectLinks>
           </ProjectInfos>
